@@ -42,18 +42,20 @@ public class Locadora {
         }
     }
 
+
     // Método para exibir todos os filmes disponíveis no catálogo
     public void mostrarFilmes() {
         load(); // Recarrega a lista de filmes
         System.out.println("-----------------------------------------------------------------------------------");
         try {
             int i = 0;
-            while (filmes.get(i) != null) { // Percorre e exibe os filmes na lista
+            while (filmes.size() > i) { // Percorre e exibe os filmes na lista
                 System.out.println(filmes.get(i).toText());
                 i++;
             }
-        } catch (Exception e) {
             System.out.println("-----------------------------------------------------------------------------------");
+        } catch (Exception e) {
+            System.out.println("Erro ao carregar os filmes");
         }
     }
 
