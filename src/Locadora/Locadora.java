@@ -3,6 +3,7 @@ package Locadora;
 import Dados.Filmes;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Locadora {
     // Lista que armazena os filmes disponíveis na locadora
@@ -25,7 +26,7 @@ public class Locadora {
     }
 
     // Método para carregar os filmes do arquivo de texto para a lista
-    private void load() {
+    protected void load() {
         ArrayList<Filmes> fil = new ArrayList<>(); // Lista temporária para armazenar os filmes carregados
 
         try (BufferedReader br = new BufferedReader(new FileReader("Txt\\saves.txt"))) {
@@ -56,16 +57,81 @@ public class Locadora {
         }
     }
 
-    // Método para buscar e exibir um filme específico pelo nome
-    public void procurarFilme(String nome) {
+    // Método para buscar e exibir um filme específico pelo nome ou outros critérios
+    public void procurarFilme() {
         load(); // Recarrega a lista de filmes
-        System.out.println("-----------------------------------------------------------------------------------");
-        for (int i = 0; i < filmes.size(); i++) {
-            if (filmes.get(i).getNomeFilme().equalsIgnoreCase(nome)) {
-                System.out.println(filmes.get(i).toText()); // Exibe o filme se o nome coincidir
-            }
+        Scanner inp = new Scanner(System.in);
+        System.out.println("Qual parametro deseja?\n[1] nome do filme [2] nome do diretor [3] ano de lançamento [4] estudio [5] categoria [6] cancelar");
+        int opt = inp.nextInt();
+        inp.nextLine();
+
+        switch(opt){
+            case 1:
+                System.out.println("Digite o nome do filme que deseja procurar: ");
+                String nomeFilme = inp.nextLine();
+                System.out.println("-----------------------------------------------------------------------------------");
+                for (int i = 0; i < filmes.size(); i++) {
+                    if (filmes.get(i).getNomeFilme().equalsIgnoreCase(nomeFilme)) {
+                        System.out.println(filmes.get(i).toText()); // Exibe o filme se o nome coincidir
+                    }
+                }
+                System.out.println("-----------------------------------------------------------------------------------");
+                break;
+
+            case 2:
+                System.out.println("Digite o nome do diretor: ");
+                String nomeDiretor = inp.nextLine();
+                System.out.println("-----------------------------------------------------------------------------------");
+                for (int i = 0; i < filmes.size(); i++) {
+                    if (filmes.get(i).getDiretor().equalsIgnoreCase(nomeDiretor)) {
+                        System.out.println(filmes.get(i).toText()); // Exibe o filme se o nome coincidir
+                    }
+                }
+                System.out.println("-----------------------------------------------------------------------------------");
+                break;
+
+            case 3:
+                System.out.println("Digite o ano de lançamento: ");
+                int anoLancamento = inp.nextInt();
+                System.out.println("-----------------------------------------------------------------------------------");
+                for (int i = 0; i < filmes.size(); i++) {
+                    if (filmes.get(i).getAnoLancamento() == anoLancamento) {
+                        System.out.println(filmes.get(i).toText()); // Exibe o filme se o ano coincidir
+                    }
+                }
+                System.out.println("-----------------------------------------------------------------------------------");
+                break;
+
+            case 4:
+                System.out.println("Digite o estudio que deseja: ");
+                String nomeEstudio = inp.nextLine();
+                System.out.println("-----------------------------------------------------------------------------------");
+                for (int i = 0; i < filmes.size(); i++) {
+                    if (filmes.get(i).getEstudio().equalsIgnoreCase(nomeEstudio)) {
+                        System.out.println(filmes.get(i).toText()); // Exibe o filme se o estúdio coincidir
+                    }
+                }
+                System.out.println("-----------------------------------------------------------------------------------");
+                break;
+            case 5:
+                System.out.println("Digite a categoria que deseja: ");
+                String categoria = inp.nextLine();
+                System.out.println("-----------------------------------------------------------------------------------");
+                for (int i = 0; i < filmes.size(); i++) {
+                    if (filmes.get(i).getCategoria().equalsIgnoreCase(categoria)) {
+                        System.out.println(filmes.get(i).toText()); // Exibe o filme se o estúdio coincidir
+                    }
+                }
+                System.out.println("-----------------------------------------------------------------------------------");
+            break;
+
+            case 6:
+            break;
+
+            default:
+                System.out.println("Comando invalido");
+            break;
         }
-        System.out.println("-----------------------------------------------------------------------------------");
     }
 
     // Método para alugar um filme

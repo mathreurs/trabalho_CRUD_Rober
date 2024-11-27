@@ -32,7 +32,62 @@ public class Filmes {
         return "[categoria: " + categoria + " | ano de lançamento: " + anoLancamento + " | estudio: " + estudio + " | diretor: " + diretor + " | nome do filme: " + nomeFilme + " | codigo: " + codigo + " | alugado: " + alugado + "]";
     }
 
-    // Métodos de acesso e modificação
+    // Getters e setters para acessar e modificar os atributos do filme
+
+    // Retorna a categoria do filme
+    public String getCategoria() {
+        return categoria;
+    }
+
+    // Define a categoria do filme
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    // Retorna o ano de lançamento do filme
+    public int getAnoLancamento() {
+        return anoLancamento;
+    }
+
+    // Define o ano de lançamento do filme
+    public void setAnoLancamento(int anoLancamento) {
+        this.anoLancamento = anoLancamento;
+    }
+
+    // Retorna o estúdio do filme
+    public String getEstudio() {
+        return estudio;
+    }
+
+    // Define o estúdio do filme
+    public void setEstudio(String estudio) {
+        this.estudio = estudio;
+    }
+
+    // Retorna o diretor do filme
+    public String getDiretor() {
+        return diretor;
+    }
+
+    // Define o diretor do filme
+    public void setDiretor(String diretor) {
+        this.diretor = diretor;
+    }
+
+    // Define o nome do filme
+    public void setNomeFilme(String nomeFilme) {
+        this.nomeFilme = nomeFilme;
+    }
+
+    // Retorna o código do filme
+    public int getCodigo() {
+        return codigo;
+    }
+
+    // Define o código do filme
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 
     // Retorna o status de aluguel do filme
     public boolean isAlugado() {

@@ -1,25 +1,22 @@
-// Importa o pacote de login (assume que existe uma classe Login no pacote Login)
+// Importa a classe Login do pacote Login para gerenciar login de usuários
 import Login.Login;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.Scanner;
 
 public class Main {
     // Cria um scanner para ler entradas do usuário no console
     static Scanner inp = new Scanner(System.in);
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // Instancia o sistema (assume que existe uma classe Sistema)
         Sistema sistema = new Sistema();
 
-        // Controla o loop principal do programa
+        // Variável de controle para manter o loop principal ativo
         boolean ligado = true;
 
         // Loop principal do programa
         while(ligado) {
-            int opt = 0;
+            int opt = 0;  // Variável para armazenar a opção do usuário
             // Exibe o menu principal para o usuário
             System.out.println("Bem vindo ao sistema!\nJá possui cadastro? [1] Sim [2] Não [3] Verificar usuários cadastrados [5] Sair do sistema");
 
@@ -30,7 +27,7 @@ public class Main {
                     opt = inp.nextInt();
                 } catch (Exception e) {
                     // Em caso de erro, informa o usuário e solicita novamente
-                    System.out.println("Não entendi o comando que foi dado\nJá possui cadastro? [1] Sim [2] Não [3] Verificar usuários cadastrados 3[5] Sair do sistema");
+                    System.out.println("Não entendi o comando que foi dado\nJá possui cadastro? [1] Sim [2] Não [3] Verificar usuários cadastrados [5] Sair do sistema");
                     opt = 0;
                 }
                 // Limpa o buffer do scanner
@@ -46,6 +43,8 @@ public class Main {
                     // Caso o usuário já possua cadastro
                     System.out.println("Digite seu nome de usuário: ");
                     String usuario = inp.nextLine();
+                    sistema.usuarioAtual = usuario;
+
                     System.out.println("Digite sua senha: ");
                     String senha = inp.nextLine();
 
@@ -73,18 +72,34 @@ public class Main {
                     System.out.println("Digite o numero do CPF:");
                     String cpf = inp.next();
 
+                    int escolha = 0;
+                    // Loop para validar o CPF até que seja correto ou o usuário cancele
                     while(!validarCpf(cpf)){
+                        escolha = inp.nextInt();
+
+                        if(escolha == 2){
+                            break;
+                        }
+                        System.out.println("Digite o numero do Cpf: ");
                         cpf = inp.next();
+
                     }
 
-                    // Adiciona o novo usuário, verificando se é um administrador ou não
-                    if (adm == 1) {
-                        log.addUsuario(usuarioCad, senhaCad, true,cpf);
-                    } else if (adm == 2) {
-                        log.addUsuario(usuarioCad, senhaCad, false,cpf);
+                    if(escolha != 2) {
+                        // Adiciona o novo usuário, verificando se é um administrador ou não
+                        if (adm == 1) {
+                            log.addUsuario(usuarioCad, senhaCad, true, cpf);
+                        } else if (adm == 2) {
+                            log.addUsuario(usuarioCad, senhaCad, false, cpf);
+                        }
+                    }else{
+                        System.out.println("Cadastro cancelado!");
                     }
+
+
                     break;
                 case 3:
+                    // Exibe todos os usuários cadastrados no sistema
                     log.mostrarUsuarios();
                     break;
 
@@ -100,20 +115,20 @@ public class Main {
                     break;
             }
         }
-
-
     }
 
-    // valdiar o CPF digitado
+    // Método para validar o CPF digitado pelo usuário
     public static boolean validarCpf(String cpf) {
         Login log = new Login();
 
+        // Verifica se o CPF já existe no sistema
         if(!log.verificarCpfExistente(cpf)){
             boolean valido = false;
-            int verificar = 0;
+            int verificar = 0; // Contador para verificar se ambos os dígitos validadores são corretos
 
-            int[] lista = new int[11];
-            // testar o primeiro digito validador
+            int[] lista = new int[11]; // Array para armazenar os dígitos do CPF
+
+            // Testa o primeiro dígito validador do CPF
             try {
                 for (int i = 0; i < 11; i++) {
                     lista[i] = Character.getNumericValue(cpf.charAt(i));
@@ -127,7 +142,7 @@ public class Main {
 
                 int valid = 11 - (validar % 11);
 
-
+                // Verifica o primeiro dígito
                 if (valid == lista[9]) {
                     verificar++;
                 }
@@ -136,7 +151,7 @@ public class Main {
                 System.out.println("Digito 1 invalido");
             }
 
-            // testar o segundo digito validador
+            // Testa o segundo dígito validador do CPF
             try {
                 for (int i = 0; i < 11; i++) {
                     lista[i] = Character.getNumericValue(cpf.charAt(i));
@@ -150,6 +165,7 @@ public class Main {
 
                 int valid = 11 - (validar % 11);
 
+                // Verifica o segundo dígito
                 if (valid == lista[10]) {
                     verificar++;
                 }
@@ -158,15 +174,17 @@ public class Main {
                 System.out.println("Digito 2 invalido");
             }
 
+            // Verifica se ambos os dígitos validadores são corretos
             if (verificar == 2) {
                 valido = true;
             } else {
-                System.out.println("CPF invalido, tente novamente: ");
+                System.out.println("CPF invalido, deseja tentar novamente? \n[1] sim [2] nao ");
             }
 
             return valido;
-        }else{
-            System.out.println("CPF já cadastrado, tente novamente");
+        } else {
+            // Caso o CPF já esteja cadastrado
+            System.out.println("CPF já cadastrado, deseja tentar novamente? \n[1] sim [2] não");
             return false;
         }
     }

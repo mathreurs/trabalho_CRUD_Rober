@@ -1,4 +1,591 @@
-Terror,2024,Faesa,Rober,O terror do java,666,false
+Ação,2015,Marvel Studios,Anthony Russo,Avengers: Age of Ultron,10,false
+Drama,2001,Paramount Pictures,Steven Spielberg,A.I. Artificial Intelligence,17,false
+Comédia,2014,Warner Bros,David Dobkin,The Judge,65,false
+Terror,2004,Warner Bros,Zack Snyder,Dawn of the Dead,72,false
+Animação,2018,Disney,Brad Bird,Incredibles 2,51,false
+Fantasia,1990,Warner Bros,Tim Burton,Edward Scissorhands,58,false
+Ficção Científica,2007,Warner Bros,Francis Lawrence,I Am Legend,47,false
+Romance,2006,Universal Pictures,Nick Cassavetes,The Notebook,81,false
+Suspense,2018,Universal Pictures,John Krasinski,A Quiet Place,74,false
+Aventura,2017,Marvel Studios,Taika Waititi,Thor: Ragnarok,91,false
+Ação,2004,Warner Bros,Jonathan Liebesman,Clash of the Titans,34,false
+Drama,1999,Universal Pictures,Spike Jonze,Being John Malkovich,39,false
+Comédia,2012,Columbia Pictures,David Wain,Role Models,84,false
+Terror,2011,New Line Cinema,James Wan,Insidious,51,false
+Animação,2005,Pixar,Andrew Stanton,Finding Nemo,67,false
+Fantasia,2006,New Line Cinema,Peter Jackson,The Hobbit: An Unexpected Journey,93,false
+Ficção Científica,2014,Warner Bros,Duncan Jones,Source Code,80,false
+Romance,1995,Paramount Pictures,Michael Bay,The Island,61,false
+Suspense,2004,Warner Bros,Christopher Nolan,Memento,66,false
+Aventura,2012,Warner Bros,Peter Jackson,The Hobbit: The Desolation of Smaug,77,false
+Ação,1993,Universal Pictures,John McTiernan,The Last Action Hero,85,false
+Drama,2004,New Line Cinema,Clint Eastwood,Million Dollar Baby,78,false
+Comédia,2001,New Line Cinema,David Zucker,Scary Movie 2,55,false
+Terror,2015,Blumhouse Productions,Jordan Peele,Get Out,40,false
+Animação,2017,Disney,Byron Howard,Zootopia,54,false
+Fantasia,2003,Warner Bros,Chris Columbus,Harry Potter and the Goblet of Fire,24,false
+Ficção Científica,1997,Warner Bros,Michael Spierig,Jigsaw,61,false
+Romance,2010,Warner Bros,Nora Ephron,You’ve Got Mail,93,false
+Suspense,1997,Warner Bros,David Fincher,Se7en,27,false
+Aventura,2002,Universal Pictures,Stephen Sommers,The Scorpion King,13,false
+Ação,2016,Marvel Studios,Anthony Russo,Captain America: Civil War,22,false
+Drama,2001,Columbia Pictures,Edward Zwick,The Last Samurai,43,false
+Comédia,2004,Universal Pictures,Jay Roach,Meet the Fockers,29,false
+Terror,1990,New Line Cinema,Tommy Lee Wallace,It,12,false
+Animação,2012,Pixar,Brenda Chapman,Brave,47,false
+Fantasia,2009,Warner Bros,Chris Columbus,Harry Potter and the Chamber of Secrets,70,false
+Ficção Científica,1990,Warner Bros,Richard Donner,The Omen,23,false
+Romance,2001,Warner Bros,Steven Spielberg,A.I. Artificial Intelligence,28,false
+Suspense,2010,Warner Bros,David Fincher,The Social Network,63,false
+Aventura,2018,Marvel Studios,Russo Brothers,Avengers: Endgame,37,false
+Ação,1999,Paramount Pictures,Michael Bay,The Rock,66,false
+Drama,2005,Warner Bros,David Cronenberg,A History of Violence,50,false
+Comédia,2019,Warner Bros,Jon M. Chu,In the Heights,39,false
+Terror,2017,New Line Cinema,John R. Leonetti,Annabelle: Creation,81,false
+Animação,2003,Pixar,Andrew Stanton,Finding Nemo,56,false
+Fantasia,1997,Warner Bros,Luc Besson,The Fifth Element,91,false
+Ficção Científica,2000,Paramount Pictures,Stephen Sommers,The Mummy,32,false
+Romance,2015,Warner Bros,David Frankel,The Devil Wears Prada,49,false
+Suspense,1990,Warner Bros,Martin Scorsese,Goodfellas,21,false
+Aventura,2001,Warner Bros,Peter Jackson,The Lord of the Rings: The Two Towers,99,false
+Ação,2012,Universal Pictures,Peter Berg,Battleship,26,false
+Drama,2011,Paramount Pictures,George Clooney,The Ides of March,54,false
+Comédia,2008,Warner Bros,John Hamburg,Four Christmases,63,false
+Terror,2014,Blumhouse Productions,James Wan,Annabelle,58,false
+Animação,2014,Disney,Chris Buck,Frozen,45,false
+Fantasia,2010,Warner Bros,David Yates,Harry Potter and the Deathly Hallows - Part 1,22,false
+Ficção Científica,1991,Warner Bros,James Cameron,Terminator 2: Judgment Day,61,false
+Romance,2017,Warner Bros,Michael Spierig,Jigsaw,54,false
+Suspense,2019,Universal Pictures,John Krasinski,A Quiet Place Part II,43,false
+Aventura,2009,Warner Bros,Peter Jackson,The Hobbit: An Unexpected Journey,40,false
+Ação,2017,Warner Bros,James Wan,Aquaman,37,false
+Drama,2002,New Line Cinema,Martin Scorsese,Gangs of New York,66,false
+Comédia,2007,Universal Pictures,David Zucker,Scary Movie 4,13,false
+Terror,1995,Dimension Films,David Robert Mitchell,It Follows,22,false
+Animação,2014,Pixar,Dan Scanlon,Monsters University,9,false
+Fantasia,2004,New Line Cinema,Peter Jackson,The Lord of the Rings: The Return of the King,77,false
+Ficção Científica,1999,Warner Bros,David Fincher,The Game,49,false
+Romance,2008,New Line Cinema,Shawn Levy,The Proposal,67,false
+Suspense,2008,Paramount Pictures,Ridley Scott,Body of Lies,72,false
+Aventura,2010,Warner Bros,Christopher Nolan,Inception,21,false
+Ação,2002,Universal Pictures,Rob Cohen,The Fast and the Furious,98,false
+Drama,1999,Columbia Pictures,Sam Mendes,American Beauty,57,false
+Comédia,2006,Warner Bros,Jay Roach,Little Miss Sunshine,59,false
+Terror,2011,Dimension Films,Ti West,The Innkeepers,93,false
+Animação,2006,Disney,John Lasseter,Cars,61,false
+Fantasia,1993,Universal Pictures,Steven Spielberg,Jurassic Park,88,false
+Ficção Científica,2017,20th Century Fox,Ridley Scott,Alien: Covenant,67,false
+Romance,1991,Warner Bros,Rob Reiner,When Harry Met Sally,23,false
+Suspense,2012,Columbia Pictures,David Fincher,The Girl with the Dragon Tattoo,18,false
+Aventura,1992,Warner Bros,Robert Zemeckis,The Witches,90,false
+Ação,1997,Touchstone Pictures,Simon West,Con Air,56,false
+Drama,1992,Universal Pictures,Rob Reiner,A Few Good Men,68,false
+Comédia,2006,Warner Bros,Todd Phillips,School for Scoundrels,22,false
+Terror,1998,Dimension Films,Robert Rodriguez,The Faculty,77,false
+Animação,2010,DreamWorks,Tim Johnson,Megamind,15,false
+Fantasia,1986,Lucasfilm,Jim Henson,Labyrinth,89,false
+Ficção Científica,2011,Paramount Pictures,J.J. Abrams,Super 8,39,false
+Romance,2001,Paramount Pictures,Peter Chelsom,Serendipity,34,false
+Suspense,1994,20th Century Fox,Jan de Bont,Speed,50,false
+Aventura,2000,Universal Pictures,Stephen Sommers,The Mummy Returns,14,false
+Ação,2003,Paramount Pictures,Jonathan Mostow,Terminator 3: Rise of the Machines,83,false
+Drama,2010,The Weinstein Company,Tom Hooper,The King's Speech,96,false
+Comédia,2018,Warner Bros,Jon M. Chu,Crazy Rich Asians,45,false
+Terror,2009,Warner Bros,Ruben Fleischer,Zombieland,73,false
+Animação,2019,Pixar,Josh Cooley,Toy Story 4,25,false
+Fantasia,2009,Warner Bros,David Yates,Harry Potter and the Half-Blood Prince,65,false
+Ficção Científica,1995,20th Century Fox,Paul Verhoeven,Total Recall,12,false
+Romance,2016,Lionsgate,Damien Chazelle,La La Land,88,false
+Suspense,1984,Paramount Pictures,Brian De Palma,Body Double,91,false
+Aventura,2011,Paramount Pictures,Brad Bird,Mission: Impossible - Ghost Protocol,76,false
+Ação,2018,Marvel Studios,Joe Russo,Avengers: Infinity War,29,false
+Drama,1994,Columbia Pictures,Robert Redford,Quiz Show,9,false
+Comédia,1984,Warner Bros,Harold Ramis,National Lampoon's Vacation,33,false
+Terror,2007,Dimension Films,Rob Zombie,Halloween,28,false
+Animação,2007,DreamWorks,Chris Miller,Shrek the Third,41,false
+Fantasia,2001,New Line Cinema,Peter Jackson,The Lord of the Rings: The Fellowship of the Ring,11,false
+Ficção Científica,2013,Paramount Pictures,Neill Blomkamp,Elysium,62,false
+Romance,1999,Universal Pictures,Roger Michell,Notting Hill,74,false
+Suspense,2014,20th Century Fox,David Fincher,Gone Girl,48,false
+Aventura,2018,Marvel Studios,Ryan Coogler,Black Panther,18,false
+Ação,2008,Warner Bros,Christopher Nolan,The Dark Knight,5,false
+Drama,2006,Paramount Pictures,Martin Scorsese,The Departed,83,false
+Comédia,2001,Universal Pictures,Wes Anderson,The Royal Tenenbaums,38,false
+Terror,2002,Screen Gems,Paul W.S. Anderson,Resident Evil,94,false
+Animação,2016,Pixar,Andrew Stanton,Finding Dory,99,false
+Fantasia,1987,Warner Bros,Rob Reiner,The Princess Bride,42,false
+Ficção Científica,1997,Paramount Pictures,Barry Sonnenfeld,Men in Black,87,false
+Romance,2010,Universal Pictures,Nancy Meyers,It's Complicated,23,false
+Suspense,1998,Universal Pictures,Steven Spielberg,Saving Private Ryan,51,false
+Aventura,2014,Paramount Pictures,Michael Bay,Transformers: Age of Extinction,31,false
+Ação,1994,20th Century Fox,James Cameron,True Lies,53,false
+Drama,1990,Paramount Pictures,Francis Ford Coppola,The Godfather Part III,46,false
+Comédia,2004,Columbia Pictures,Adam McKay,Anchorman: The Legend of Ron Burgundy,66,false
+Terror,2012,Lionsgate,Drew Goddard,The Cabin in the Woods,39,false
+Animação,2015,Pixar,Pete Docter,Inside Out,12,false
+Fantasia,2003,Warner Bros,Chris Columbus,Harry Potter and the Prisoner of Azkaban,54,false
+Ficção Científica,2005,Warner Bros,Steven Spielberg,War of the Worlds,91,false
+Romance,1993,TriStar Pictures,Harold Ramis,Groundhog Day,15,false
+Suspense,2006,Paramount Pictures,Martin Scorsese,The Departed,25,false
+Aventura,1988,Universal Pictures,Robert Zemeckis,Who Framed Roger Rabbit,63,false
+Ação,2017,20th Century Fox,James Mangold,Logan,70,false
+Drama,2005,Focus Features,Ang Lee,Brokeback Mountain,84,false
+Comédia,1993,Columbia Pictures,Harold Ramis,Groundhog Day,24,false
+Terror,2018,Universal Pictures,David Gordon Green,Halloween,80,false
+Animação,2009,20th Century Fox,Chris Sanders,Ice Age: Dawn of the Dinosaurs,4,false
+Fantasia,2007,New Line Cinema,Chris Weitz,The Golden Compass,47,false
+Ficção Científica,2002,Columbia Pictures,Sam Raimi,Spider-Man,16,false
+Romance,1987,20th Century Fox,James L. Brooks,Broadcast News,60,false
+Suspense,2002,Universal Pictures,Doug Liman,The Bourne Identity,58,false
+Aventura,1999,Universal Pictures,Stephen Sommers,The Mummy,14,false
+Ação,2011,Paramount Pictures,J.J. Abrams,Super 8,43,false
+Drama,1989,Universal Pictures,Phil Alden Robinson,Field of Dreams,69,false
+Comédia,1996,20th Century Fox,Jay Roach,First Wives Club,36,false
+Terror,2000,Dimension Films,Keenen Ivory Wayans,Scary Movie,17,false
+Animação,2004,DreamWorks,Andrew Adamson,Shrek 2,64,false
+Fantasia,2009,Warner Bros,David Yates,Harry Potter and the Half-Blood Prince,6,false
+Ficção Científica,2015,Warner Bros,George Miller,Mad Max: Fury Road,32,false
+Romance,2004,Warner Bros,Nick Cassavetes,The Notebook,95,false
+Suspense,2014,20th Century Fox,David Fincher,Gone Girl,73,false
+Aventura,2008,Lucasfilm,Steven Spielberg,Indiana Jones and the Kingdom of the Crystal Skull,22,false
+Ação,1988,20th Century Fox,John McTiernan,Die Hard,9,false
+Drama,2001,Paramount Pictures,Cameron Crowe,Vanilla Sky,81,false
+Comédia,2011,Universal Pictures,Paul Feig,Bridesmaids,46,false
+Terror,2003,New Line Cinema,Marcus Nispel,The Texas Chainsaw Massacre,53,false
+Animação,2007,DreamWorks,Chris Miller,Shrek the Third,75,false
+Fantasia,2002,Warner Bros,Chris Columbus,Harry Potter and the Chamber of Secrets,20,false
+Ficção Científica,2016,Paramount Pictures,Dennis Villeneuve,Arrival,82,false
+Romance,2012,Universal Pictures,Tom Hooper,Les Misérables,28,false
+Suspense,2009,20th Century Fox,James Cameron,Avatar,57,false
+Aventura,2004,20th Century Fox,Shawn Levy,Night at the Museum,50,false
+Ação,1991,TriStar Pictures,James Cameron,Terminator 2: Judgment Day,12,false
+Drama,2012,The Weinstein Company,Quentin Tarantino,Django Unchained,34,false
+Comédia,2009,Paramount Pictures,Ruben Fleischer,Zombieland,88,false
+Terror,2013,Universal Pictures,James Wan,The Conjuring,49,false
+Animação,2012,Pixar,Mark Andrews,Brave,93,false
+Fantasia,2008,Warner Bros,David Yates,Harry Potter and the Half-Blood Prince,68,false
+Ficção Científica,1994,20th Century Fox,James Cameron,True Lies,79,false
+Romance,2018,Paramount Pictures,Bob Persichetti,Spider-Man: Into the Spider-Verse,27,false
+Suspense,2006,Paramount Pictures,Martin Scorsese,The Departed,15,false
+Aventura,2000,Universal Pictures,Ridley Scott,Gladiator,3,false
+Ação,2007,Universal Pictures,Paul Greengrass,The Bourne Ultimatum,85,false
+Drama,1997,Paramount Pictures,James Cameron,Titanic,14,false
+Comédia,2006,20th Century Fox,Shawn Levy,Night at the Museum,52,false
+Terror,2013,New Line Cinema,James Wan,The Conjuring,62,false
+Animação,2017,Pixar,Lee Unkrich,Coco,95,false
+Fantasia,2001,Warner Bros,Chris Columbus,Harry Potter and the Sorcerer's Stone,8,false
+Ficção Científica,1999,Warner Bros,The Wachowskis,The Matrix,77,false
+Romance,1995,Columbia Pictures,Richard Linklater,Before Sunrise,31,false
+Suspense,2010,Warner Bros,Christopher Nolan,Inception,19,false
+Aventura,1989,Lucasfilm,Steven Spielberg,Indiana Jones and the Last Crusade,50,false
+Ação,1990,20th Century Fox,John McTiernan,Predator 2,72,false
+Drama,2000,Warner Bros,Clint Eastwood,Space Cowboys,83,false
+Comédia,2019,Warner Bros,Todd Phillips,Joker,37,false
+Terror,2018,Blumhouse Productions,Ari Aster,Hereditary,54,false
+Animação,2004,Pixar,Brad Bird,The Incredibles,6,false
+Fantasia,2007,Warner Bros,David Yates,Harry Potter and the Order of the Phoenix,93,false
+Ficção Científica,1982,Universal Pictures,Steven Spielberg,E.T. the Extra-Terrestrial,18,false
+Romance,2013,Warner Bros,Baz Luhrmann,The Great Gatsby,82,false
+Suspense,2011,Paramount Pictures,Brad Bird,Mission: Impossible - Ghost Protocol,63,false
+Aventura,2005,20th Century Fox,Chris Wedge,Robots,25,false
+Ação,2019,Marvel Studios,Anthony Russo,Avengers: Endgame,47,false
+Drama,2002,Paramount Pictures,Martin Scorsese,Gangs of New York,53,false
+Comédia,1994,20th Century Fox,Chris Columbus,Home Alone,20,false
+Terror,1996,Dimension Films,Wes Craven,Scream,80,false
+Animação,2019,Pixar,Josh Cooley,Toy Story 4,40,false
+Fantasia,2004,Warner Bros,Alfonso Cuarón,Harry Potter and the Prisoner of Azkaban,27,false
+Ficção Científica,2015,20th Century Fox,Ridley Scott,The Martian,78,false
+Romance,1998,Paramount Pictures,Michael Bay,Armageddon,99,false
+Suspense,2001,Paramount Pictures,Ridley Scott,Hannibal,24,false
+Aventura,2014,Warner Bros,Peter Jackson,The Hobbit: The Battle of the Five Armies,74,false
+Ação,2018,Warner Bros,James Wan,Aquaman,57,false
+Drama,2016,Lionsgate,Damien Chazelle,La La Land,2,false
+Comédia,2010,Columbia Pictures,Will Gluck,Easy A,26,false
+Terror,2010,Warner Bros,James Wan,Insidious,66,false
+Animação,2001,Pixar,Pete Docter,Monsters Inc.,32,false
+Fantasia,2012,Warner Bros,Peter Jackson,The Hobbit: An Unexpected Journey,11,false
+Ficção Científica,2014,Paramount Pictures,Christopher Nolan,Interstellar,35,false
+Romance,2006,Sony Pictures,Andy Tennant,The Pursuit of Happyness,42,false
+Suspense,2017,Universal Pictures,Jordan Peele,Get Out,21,false
+Aventura,2000,Universal Pictures,Ridley Scott,Gladiator,73,false
+Ação,1998,Columbia Pictures,Michael Bay,Enemy of the State,45,false
+Drama,2008,Focus Features,Gus Van Sant,Milk,59,false
+Comédia,2004,Paramount Pictures,Adam McKay,Anchorman: The Legend of Ron Burgundy,12,false
+Terror,2012,20th Century Fox,Ridley Scott,Prometheus,91,false
+Animação,1999,Pixar,John Lasseter,Toy Story 2,22,false
+Fantasia,2001,Warner Bros,Chris Columbus,Harry Potter and the Philosopher's Stone,65,false
+Ficção Científica,2018,Paramount Pictures,Dennis Villeneuve,Annihilation,41,false
+Romance,1993,TriStar Pictures,Nora Ephron,Sleepless in Seattle,92,false
+Suspense,1987,Warner Bros,Stanley Kubrick,Full Metal Jacket,33,false
+Aventura,2003,Warner Bros,Peter Jackson,The Lord of the Rings: The Return of the King,96,false
+Ação,2015,Warner Bros,George Miller,Mad Max: Fury Road,89,false
+Drama,2007,Paramount Pictures,Paul Thomas Anderson,There Will Be Blood,30,false
+Comédia,1989,Universal Pictures,Harold Ramis,National Lampoon's Christmas Vacation,17,false
+Terror,1976,Warner Bros,Brian De Palma,Carrie,43,false
+Animação,2006,Disney,John Lasseter,Cars,55,false
+Fantasia,2017,Warner Bros,Patty Jenkins,Wonder Woman,69,false
+Ficção Científica,2010,Warner Bros,Christopher Nolan,Inception,37,false
+Romance,2005,Focus Features,Joe Wright,Pride & Prejudice,79,false
+Suspense,2002,Paramount Pictures,Phillip Noyce,The Sum of All Fears,86,false
+Aventura,1996,20th Century Fox,Roland Emmerich,Independence Day,7,false
+Ação,2004,Columbia Pictures,Sam Raimi,Spider-Man 2,60,false
+Drama,2019,Universal Pictures,Sam Mendes,1917,46,false
+Comédia,2008,Columbia Pictures,Adam McKay,Step Brothers,13,false
+Terror,1999,Paramount Pictures,Daniel Myrick,The Blair Witch Project,94,false
+Animação,2008,Pixar,Andrew Stanton,WALL-E,36,false
+Fantasia,2007,Warner Bros,David Yates,Harry Potter and the Order of the Phoenix,49,false
+Ficção Científica,1996,20th Century Fox,Jonathan Frakes,Star Trek: First Contact,84,false
+Romance,1997,Paramount Pictures,James Cameron,Titanic,50,false
+Suspense,2014,20th Century Fox,David Fincher,Gone Girl,23,false
+Aventura,2009,20th Century Fox,James Cameron,Avatar,87,false
+Ação,2016,20th Century Fox,Tim Miller,Deadpool,97,false
+Drama,1990,Warner Bros,Martin Scorsese,Goodfellas,16,false
+Comédia,2001,Universal Pictures,Jay Roach,Meet the Parents,71,false
+Terror,2001,Universal Pictures,Stephen Sommers,The Mummy Returns,93,false
+Animação,2016,Disney,Byron Howard,Zootopia,9,false
+Fantasia,1985,Universal Pictures,Robert Zemeckis,Back to the Future,28,false
+Ficção Científica,2009,Paramount Pictures,J.J. Abrams,Star Trek,53,false
+Romance,1993,TriStar Pictures,John Badham,Sleepless in Seattle,62,false
+Suspense,1983,Paramount Pictures,Brian De Palma,Scarface,99,false
+Aventura,1999,Universal Pictures,Stephen Sommers,The Mummy,4,false
+Ação,2015,Lucasfilm,J.J. Abrams,Star Wars: The Force Awakens,82,false
+Drama,2002,Focus Features,Roman Polanski,The Pianist,69,false
+Comédia,2000,20th Century Fox,Jay Roach,Meet the Parents,31,false
+Terror,2004,Warner Bros,Zack Snyder,Dawn of the Dead,48,false
+Animação,2018,Pixar,Brad Bird,Incredibles 2,64,false
+Fantasia,2006,Warner Bros,Christopher Nolan,The Prestige,11,false
+Ficção Científica,2013,Warner Bros,Alfonso Cuarón,Gravity,26,false
+Romance,2018,Universal Pictures,Bradley Cooper,A Star is Born,90,false
+Suspense,1991,Orion Pictures,Jonathan Demme,The Silence of the Lambs,18,false
+Aventura,1987,Lucasfilm,Richard Donner,Lethal Weapon,40,false
+Ação,2007,Universal Pictures,Paul Greengrass,The Bourne Ultimatum,85,false
+Drama,1997,Paramount Pictures,James Cameron,Titanic,14,false
+Comédia,2006,20th Century Fox,Shawn Levy,Night at the Museum,52,false
+Terror,2013,New Line Cinema,James Wan,The Conjuring,62,false
+Animação,2017,Pixar,Lee Unkrich,Coco,95,false
+Fantasia,2001,Warner Bros,Chris Columbus,Harry Potter and the Sorcerer's Stone,8,false
+Ficção Científica,1999,Warner Bros,The Wachowskis,The Matrix,77,false
+Romance,1995,Columbia Pictures,Richard Linklater,Before Sunrise,31,false
+Suspense,2010,Warner Bros,Christopher Nolan,Inception,19,false
+Aventura,1989,Lucasfilm,Steven Spielberg,Indiana Jones and the Last Crusade,50,false
+Ação,1990,20th Century Fox,John McTiernan,Predator 2,72,false
+Drama,2000,Warner Bros,Clint Eastwood,Space Cowboys,83,false
+Comédia,2019,Warner Bros,Todd Phillips,Joker,37,false
+Terror,2018,Blumhouse Productions,Ari Aster,Hereditary,54,false
+Animação,2004,Pixar,Brad Bird,The Incredibles,6,false
+Fantasia,2007,Warner Bros,David Yates,Harry Potter and the Order of the Phoenix,93,false
+Ficção Científica,1982,Universal Pictures,Steven Spielberg,E.T. the Extra-Terrestrial,18,false
+Romance,2013,Warner Bros,Baz Luhrmann,The Great Gatsby,82,false
+Suspense,2011,Paramount Pictures,Brad Bird,Mission: Impossible - Ghost Protocol,63,false
+Aventura,2005,20th Century Fox,Chris Wedge,Robots,25,false
+Ação,2019,Marvel Studios,Anthony Russo,Avengers: Endgame,47,false
+Drama,2002,Paramount Pictures,Martin Scorsese,Gangs of New York,53,false
+Comédia,1994,20th Century Fox,Chris Columbus,Home Alone,20,false
+Terror,1996,Dimension Films,Wes Craven,Scream,80,false
+Animação,2019,Pixar,Josh Cooley,Toy Story 4,40,false
+Fantasia,2004,Warner Bros,Alfonso Cuarón,Harry Potter and the Prisoner of Azkaban,27,false
+Ficção Científica,2015,20th Century Fox,Ridley Scott,The Martian,78,false
+Romance,1998,Paramount Pictures,Michael Bay,Armageddon,99,false
+Suspense,2001,Paramount Pictures,Ridley Scott,Hannibal,24,false
+Aventura,2014,Warner Bros,Peter Jackson,The Hobbit: The Battle of the Five Armies,74,false
+Ação,2018,Warner Bros,James Wan,Aquaman,57,false
+Drama,2016,Lionsgate,Damien Chazelle,La La Land,2,false
+Comédia,2010,Columbia Pictures,Will Gluck,Easy A,26,false
+Terror,2010,Warner Bros,James Wan,Insidious,66,false
+Animação,2001,Pixar,Pete Docter,Monsters Inc.,32,false
+Fantasia,2012,Warner Bros,Peter Jackson,The Hobbit: An Unexpected Journey,11,false
+Ficção Científica,2014,Paramount Pictures,Christopher Nolan,Interstellar,35,false
+Romance,2006,Sony Pictures,Andy Tennant,The Pursuit of Happyness,42,false
+Suspense,2017,Universal Pictures,Jordan Peele,Get Out,21,false
+Aventura,2000,Universal Pictures,Ridley Scott,Gladiator,73,false
+Ação,1998,Columbia Pictures,Michael Bay,Enemy of the State,45,false
+Drama,2008,Focus Features,Gus Van Sant,Milk,59,false
+Comédia,2004,Paramount Pictures,Adam McKay,Anchorman: The Legend of Ron Burgundy,12,false
+Terror,2012,20th Century Fox,Ridley Scott,Prometheus,91,false
+Animação,1999,Pixar,John Lasseter,Toy Story 2,22,false
+Fantasia,2001,Warner Bros,Chris Columbus,Harry Potter and the Philosopher's Stone,65,false
+Ficção Científica,2018,Paramount Pictures,Dennis Villeneuve,Annihilation,41,false
+Romance,1993,TriStar Pictures,Nora Ephron,Sleepless in Seattle,92,false
+Suspense,1987,Warner Bros,Stanley Kubrick,Full Metal Jacket,33,false
+Aventura,2003,Warner Bros,Peter Jackson,The Lord of the Rings: The Return of the King,96,false
+Ação,2015,Warner Bros,George Miller,Mad Max: Fury Road,89,false
+Drama,2007,Paramount Pictures,Paul Thomas Anderson,There Will Be Blood,30,false
+Comédia,1989,Universal Pictures,Harold Ramis,National Lampoon's Christmas Vacation,17,false
+Terror,1976,Warner Bros,Brian De Palma,Carrie,43,false
+Animação,2006,Disney,John Lasseter,Cars,55,false
+Fantasia,2017,Warner Bros,Patty Jenkins,Wonder Woman,69,false
+Ficção Científica,2010,Warner Bros,Christopher Nolan,Inception,37,false
+Romance,2005,Focus Features,Joe Wright,Pride & Prejudice,79,false
+Suspense,2002,Paramount Pictures,Phillip Noyce,The Sum of All Fears,86,false
+Aventura,1996,20th Century Fox,Roland Emmerich,Independence Day,7,false
+Ação,2004,Columbia Pictures,Sam Raimi,Spider-Man 2,60,false
+Drama,2019,Universal Pictures,Sam Mendes,1917,46,false
+Comédia,2008,Columbia Pictures,Adam McKay,Step Brothers,13,false
+Terror,1999,Paramount Pictures,Daniel Myrick,The Blair Witch Project,94,false
+Animação,2008,Pixar,Andrew Stanton,WALL-E,36,false
+Fantasia,2007,Warner Bros,David Yates,Harry Potter and the Order of the Phoenix,49,false
+Ficção Científica,1996,20th Century Fox,Jonathan Frakes,Star Trek: First Contact,84,false
+Romance,1997,Paramount Pictures,James Cameron,Titanic,50,false
+Suspense,2014,20th Century Fox,David Fincher,Gone Girl,23,false
+Aventura,2009,20th Century Fox,James Cameron,Avatar,87,false
+Ação,2016,20th Century Fox,Tim Miller,Deadpool,97,false
+Drama,1990,Warner Bros,Martin Scorsese,Goodfellas,16,false
+Comédia,2001,Universal Pictures,Jay Roach,Meet the Parents,71,false
+Terror,2001,Universal Pictures,Stephen Sommers,The Mummy Returns,93,false
+Animação,2016,Disney,Byron Howard,Zootopia,9,false
+Fantasia,1985,Universal Pictures,Robert Zemeckis,Back to the Future,28,false
+Ficção Científica,2009,Paramount Pictures,J.J. Abrams,Star Trek,53,false
+Romance,1993,TriStar Pictures,John Badham,Sleepless in Seattle,62,false
+Suspense,1983,Paramount Pictures,Brian De Palma,Scarface,99,false
+Aventura,1999,Universal Pictures,Stephen Sommers,The Mummy,4,false
+Ação,2015,Lucasfilm,J.J. Abrams,Star Wars: The Force Awakens,82,false
+Drama,2002,Focus Features,Roman Polanski,The Pianist,69,false
+Comédia,2000,20th Century Fox,Jay Roach,Meet the Parents,31,false
+Terror,2004,Warner Bros,Zack Snyder,Dawn of the Dead,48,false
+Animação,2018,Pixar,Brad Bird,Incredibles 2,64,false
+Fantasia,2006,Warner Bros,Christopher Nolan,The Prestige,11,false
+Ficção Científica,2013,Warner Bros,Alfonso Cuarón,Gravity,26,false
+Romance,2018,Universal Pictures,Bradley Cooper,A Star is Born,90,false
+Suspense,1991,Orion Pictures,Jonathan Demme,The Silence of the Lambs,18,false
+Aventura,1987,Lucasfilm,Richard Donner,Lethal Weapon,40,false
+Ação,1993,Hollywood Pictures,Renny Harlin,Cliffhanger,22,false
+Drama,2012,The Weinstein Company,David O. Russell,Silver Linings Playbook,79,false
+Comédia,1983,Universal Pictures,John Landis,Trading Places,26,false
+Terror,2016,A24,Robert Eggers,The Witch,68,false
+Animação,2010,DreamWorks,Chris Sanders,How to Train Your Dragon,93,false
+Fantasia,1996,Warner Bros,Terry Gilliam,12 Monkeys,33,false
+Ficção Científica,2007,20th Century Fox,Danny Boyle,Sunshine,42,false
+Romance,2000,Warner Bros,David McNally,Coyote Ugly,90,false
+Suspense,2005,Warner Bros,Christopher Nolan,Batman Begins,81,false
+Aventura,2009,Columbia Pictures,J.J. Abrams,Star Trek,48,false
+Ação,1999,Warner Bros,The Wachowskis,The Matrix,64,false
+Drama,1994,Paramount Pictures,Robert Zemeckis,Forrest Gump,7,false
+Comédia,2013,Paramount Pictures,Martin Scorsese,The Wolf of Wall Street,88,false
+Terror,2008,Paramount Pictures,Oren Peli,Paranormal Activity,19,false
+Animação,1992,Disney,Ron Clements,Aladdin,25,false
+Fantasia,2010,Warner Bros,David Yates,Harry Potter and the Deathly Hallows - Part 1,50,false
+Ficção Científica,2014,20th Century Fox,Rupert Wyatt,Dawn of the Planet of the Apes,14,false
+Romance,1998,Paramount Pictures,Michael Bay,Armageddon,62,false
+Suspense,2006,Columbia Pictures,Martin Campbell,Casino Royale,40,false
+Aventura,2001,New Line Cinema,Peter Jackson,The Lord of the Rings: The Two Towers,99,false
+Ação,1990,20th Century Fox,John McTiernan,Die Hard 2,35,false
+Drama,2008,Paramount Vantage,Danny Boyle,Slumdog Millionaire,53,false
+Comédia,2011,Warner Bros,Todd Phillips,The Hangover Part II,16,false
+Terror,2004,Universal Pictures,Zack Snyder,Dawn of the Dead,84,false
+Animação,2012,PDI/DreamWorks,Peter Ramsey,Rise of the Guardians,39,false
+Ficção Científica,2013,Paramount Pictures,Neill Blomkamp,Elysium,44,false
+Romance,2004,New Line Cinema,Nick Cassavetes,The Notebook,58,false
+Suspense,2001,Universal Pictures,Ridley Scott,Hannibal,76,false
+Aventura,1995,Warner Bros,Mel Gibson,Braveheart,18,false
+Ação,2003,Columbia Pictures,Michael Bay,Bad Boys II,86,false
+Drama,2002,Warner Bros,Clint Eastwood,Mystic River,71,false
+Comédia,2015,Universal Pictures,Peyton Reed,Ant-Man,21,false
+Terror,2000,Lionsgate,Mary Harron,American Psycho,65,false
+Animação,2016,Disney,Byron Howard,Zootopia,98,false
+Fantasia,2009,Warner Bros,David Yates,Harry Potter and the Half-Blood Prince,31,false
+Ficção Científica,2005,Universal Pictures,Steven Spielberg,War of the Worlds,49,false
+Romance,2010,Sony Pictures,David Fincher,The Social Network,10,false
+Suspense,2019,Warner Bros,Todd Phillips,Joker,85,false
+Aventura,2006,Sony Pictures,Ron Howard,The Da Vinci Code,20,false
+Ação,1995,Universal Pictures,Michael Mann,Heat,43,false
+Drama,2019,Universal Pictures,Sam Mendes,1917,57,false
+Comédia,1984,Paramount Pictures,Ivan Reitman,Ghostbusters,38,false
+Terror,2013,Lionsgate,James Wan,The Conjuring,96,false
+Animação,2001,DreamWorks,Andrew Adamson,Shrek,73,false
+Fantasia,2014,Disney,Robert Stromberg,Maleficent,9,false
+Ficção Científica,1982,Warner Bros,Ridley Scott,Blade Runner,68,false
+Romance,2001,Paramount Pictures,Baz Luhrmann,Moulin Rouge!,27,false
+Suspense,1991,Orion Pictures,Jonathan Demme,The Silence of the Lambs,94,false
+Aventura,2017,Warner Bros,Patty Jenkins,Wonder Woman,17,false
+Ação,2008,Paramount Pictures,Jon Favreau,Iron Man,52,false
+Drama,1980,United Artists,Martin Scorsese,Raging Bull,37,false
+Comédia,2008,Columbia Pictures,Adam McKay,Step Brothers,12,false
+Terror,2002,Dimension Films,Neil Marshall,Dog Soldiers,78,false
+Animação,1998,Pixar,John Lasseter,A Bug's Life,47,false
+Fantasia,2003,Warner Bros,Chris Columbus,Harry Potter and the Chamber of Secrets,56,false
+Ficção Científica,2012,20th Century Fox,Ridley Scott,Prometheus,81,false
+Romance,1999,New Line Cinema,Frank Darabont,The Green Mile,3,false
+Suspense,1998,Warner Bros,Tony Scott,Enemy of the State,67,false
+Aventura,1981,Paramount Pictures,Steven Spielberg,Indiana Jones and the Raiders of the Lost Ark,93,false
+Ação,2009,Warner Bros,Zack Snyder,Watchmen,23,false
+Drama,2010,Paramount Pictures,David O. Russell,The Fighter,34,false
+Comédia,1999,Universal Pictures,Stanley Kubrick,Eyes Wide Shut,75,false
+Terror,2014,Warner Bros,James Wan,Annabelle,60,false
+Animação,2015,Pixar,Pete Docter,Inside Out,99,false
+Fantasia,2006,Warner Bros,Christopher Nolan,The Prestige,35,false
+Ficção Científica,2009,20th Century Fox,James Cameron,Avatar,4,false
+Romance,1988,TriStar Pictures,Garry Marshall,Beaches,90,false
+Suspense,2011,Paramount Pictures,Brad Bird,Mission: Impossible - Ghost Protocol,59,false
+Aventura,1999,Universal Pictures,Stephen Sommers,The Mummy,13,false
+Ação,2016,Marvel Studios,Anthony Russo,Captain America: Civil War,44,false
+Drama,2013,Focus Features,Steve McQueen,12 Years a Slave,65,false
+Comédia,2004,Paramount Pictures,Adam McKay,Anchorman: The Legend of Ron Burgundy,15,false
+Terror,2017,Universal Pictures,Jordan Peele,Get Out,72,false
+Animação,1995,Pixar,John Lasseter,Toy Story,1,false
+Fantasia,2007,Warner Bros,David Yates,Harry Potter and the Order of the Phoenix,91,false
+Ficção Científica,1997,Universal Pictures,Barry Sonnenfeld,Men in Black,41,false
+Romance,2018,Warner Bros,Bradley Cooper,A Star is Born,53,false
+Suspense,2015,20th Century Fox,Ridley Scott,The Martian,83,false
+Aventura,2002,New Line Cinema,Peter Jackson,The Lord of the Rings: The Two Towers,76,false
+Ação,1998,Universal Pictures,Michael Bay,Armageddon,31,false
+Drama,2008,Fox Searchlight,Danny Boyle,Slumdog Millionaire,39,false
+Comédia,1985,Universal Pictures,Robert Zemeckis,Back to the Future,20,false
+Terror,1979,20th Century Fox,Ridley Scott,Alien,64,false
+Animação,2008,Disney,Byron Howard,Bolt,28,false
+Fantasia,2003,New Line Cinema,Peter Jackson,The Lord of the Rings: The Return of the King,89,false
+Ficção Científica,2016,Paramount Pictures,Dennis Villeneuve,Arrival,45,false
+Romance,2015,Focus Features,Sam Taylor-Johnson,Fifty Shades of Grey,17,false
+Suspense,1996,Paramount Pictures,Brian De Palma,Mission: Impossible,94,false
+Aventura,2005,Warner Bros,Christopher Nolan,Batman Begins,6,false
+Ação,2012,Warner Bros,Christopher Nolan,The Dark Knight Rises,42,false
+Drama,2016,20th Century Fox,Theodore Melfi,Hidden Figures,37,false
+Comédia,1994,New Line Cinema,Peter Farrelly,Dumb and Dumber,13,false
+Terror,2002,Dimension Films,Danny Boyle,28 Days Later,82,false
+Animação,2017,Pixar,Lee Unkrich,Coco,61,false
+Fantasia,2013,Disney,Sam Raimi,Oz the Great and Powerful,75,false
+Ficção Científica,1996,20th Century Fox,Roland Emmerich,Independence Day,54,false
+Romance,1995,Columbia Pictures,Richard Linklater,Before Sunrise,49,false
+Suspense,2000,Warner Bros,Christopher Nolan,Memento,29,false
+Aventura,1985,Warner Bros,Richard Donner,The Goonies,93,false
+Ação,2015,Warner Bros,George Miller,Mad Max: Fury Road,22,false
+Drama,1989,TriStar Pictures,Rob Reiner,When Harry Met Sally,77,false
+Comédia,2010,Paramount Pictures,Adam McKay,The Other Guys,33,false
+Terror,2018,Universal Pictures,John Krasinski,A Quiet Place,14,false
+Animação,1997,Fox Animation,Don Bluth,Anastasia,80,false
+Fantasia,1999,Warner Bros,Stephen Sommers,The Mummy,96,false
+Ficção Científica,2005,Universal Pictures,Steven Spielberg,War of the Worlds,30,false
+Romance,2008,Summit Entertainment,Catherine Hardwicke,Twilight,69,false
+Suspense,1996,Paramount Pictures,Brian De Palma,Mission: Impossible,10,false
+Aventura,2012,New Line Cinema,Peter Jackson,The Hobbit: An Unexpected Journey,85,false
+Ação,1998,New Line Cinema,Renny Harlin,Deep Blue Sea,24,false
+Drama,1982,Warner Bros,Richard Attenborough,Gandhi,66,false
+Comédia,1995,Universal Pictures,Amy Heckerling,Clueless,53,false
+Terror,2005,Universal Pictures,Francis Lawrence,Constantine,79,false
+Animação,2019,Pixar,Josh Cooley,Toy Story 4,46,false
+Fantasia,2014,Disney,Robert Stromberg,Maleficent,91,false
+Ficção Científica,2018,Universal Pictures,Alex Garland,Annihilation,57,false
+Romance,2006,Paramount Pictures,Andy Tennant,The Pursuit of Happyness,38,false
+Suspense,1992,Columbia Pictures,Paul Verhoeven,Basic Instinct,95,false
+Aventura,1984,Warner Bros,John Milius,Red Dawn,68,false
+Ação,2006,Warner Bros,Martin Campbell,Casino Royale,47,false
+Drama,1996,Miramax,Baz Luhrmann,Romeo + Juliet,83,false
+Comédia,2011,Universal Pictures,Paul Feig,Bridesmaids,11,false
+Terror,2017,Universal Pictures,Jordan Peele,Get Out,74,false
+Animação,2012,Disney,Rich Moore,Wreck-It Ralph,25,false
+Fantasia,1990,Warner Bros,Tim Burton,Edward Scissorhands,52,false
+Ficção Científica,1999,Columbia Pictures,Dean Parisot,Galaxy Quest,67,false
+Romance,1993,TriStar Pictures,Nora Ephron,Sleepless in Seattle,56,false
+Suspense,2007,Warner Bros,Zack Snyder,300,41,false
+Aventura,2015,Lucasfilm,J.J. Abrams,Star Wars: The Force Awakens,21,false
+Ação,2003,Paramount Pictures,Jonathan Mostow,Terminator 3: Rise of the Machines,72,false
+Drama,2013,Focus Features,Steve McQueen,12 Years a Slave,15,false
+Comédia,2004,Paramount Pictures,Adam McKay,Anchorman: The Legend of Ron Burgundy,44,false
+Terror,1996,Dimension Films,Wes Craven,Scream,87,false
+Animação,2010,Universal Pictures,Pierre Coffin,Despicable Me,59,false
+Fantasia,2006,Disney,Gore Verbinski,Pirates of the Caribbean: Dead Man's Chest,12,false
+Ficção Científica,1990,TriStar Pictures,Paul Verhoeven,Total Recall,64,false
+Romance,2002,Universal Pictures,Richard Curtis,Notting Hill,31,false
+Suspense,1988,Warner Bros,Clint Eastwood,The Dead Pool,45,false
+Aventura,2004,Universal Pictures,Oliver Stone,Alexander,93,false
+Ação,2007,Universal Pictures,Paul Greengrass,The Bourne Ultimatum,15,false
+Drama,1997,Miramax,Gus Van Sant,Good Will Hunting,97,false
+Comédia,1998,Universal Pictures,The Coen Brothers,The Big Lebowski,39,false
+Terror,2019,Warner Bros,Andy Muschietti,It Chapter Two,23,false
+Animação,2001,DreamWorks,Andrew Adamson,Shrek,86,false
+Fantasia,1984,Universal Pictures,Joe Dante,Gremlins,4,false
+Ficção Científica,1982,Universal Pictures,Steven Spielberg,E.T. the Extra-Terrestrial,74,false
+Romance,2001,Paramount Pictures,Peter Chelsom,Serendipity,91,false
+Suspense,2014,20th Century Fox,David Fincher,Gone Girl,43,false
+Aventura,2012,Warner Bros,Peter Jackson,The Hobbit: An Unexpected Journey,65,false
+Ação,1994,Columbia Pictures,Jan de Bont,Speed,8,false
+Drama,2010,Paramount Pictures,Martin Scorsese,Shutter Island,55,false
+Comédia,1987,Warner Bros,Stanley Kubrick,Full Metal Jacket,26,false
+Terror,2002,New Line Cinema,Robert Rodriguez,The Faculty,67,false
+Animação,2009,Pixar,Pete Docter,Up,72,false
+Fantasia,2013,Warner Bros,Zack Snyder,Man of Steel,13,false
+Ficção Científica,2006,Universal Pictures,Alfonso Cuarón,Children of Men,87,false
+Romance,1999,Warner Bros,Andy Tennant,Anna and the King,10,false
+Suspense,2015,Universal Pictures,F. Gary Gray,Straight Outta Compton,51,false
+Aventura,2019,Marvel Studios,Anthony Russo,Avengers: Endgame,30,false
+Ação,2002,20th Century Fox,Paul W.S. Anderson,Resident Evil,29,false
+Drama,1980,United Artists,Martin Scorsese,Raging Bull,92,false
+Comédia,1990,20th Century Fox,Chris Columbus,Home Alone,40,false
+Terror,2014,Lionsgate,Adam Wingard,The Guest,85,false
+Animação,2014,Warner Bros,Phil Lord,The Lego Movie,66,false
+Fantasia,2017,Warner Bros,Patty Jenkins,Wonder Woman,3,false
+Ficção Científica,2014,Paramount Pictures,Christopher Nolan,Interstellar,60,false
+Romance,1993,TriStar Pictures,John Badham,Point of No Return,58,false
+Suspense,2006,Paramount Pictures,J.J. Abrams,Mission: Impossible III,9,false
+Aventura,1995,Warner Bros,Mel Gibson,Braveheart,95,false
+Ação,1988,Warner Bros,John McTiernan,Die Hard,48,false
+Drama,2005,Paramount Pictures,Ang Lee,Brokeback Mountain,7,false
+Comédia,2001,Universal Pictures,Bobby Farrelly,Shallow Hal,44,false
+Terror,2007,Dimension Films,Rob Zombie,Halloween,38,false
+Animação,2016,Pixar,Andrew Stanton,Finding Dory,90,false
+Fantasia,2009,Warner Bros,David Yates,Harry Potter and the Half-Blood Prince,84,false
+Ficção Científica,1997,Columbia Pictures,Barry Sonnenfeld,Men in Black,21,false
+Romance,2012,Focus Features,Joe Wright,Anna Karenina,20,false
+Suspense,2002,Paramount Pictures,Phillip Noyce,The Sum of All Fears,16,false
+Aventura,2000,Universal Pictures,Ridley Scott,Gladiator,54,false
+Ação,1985,TriStar Pictures,George Miller,Mad Max Beyond Thunderdome,22,false
+Drama,2007,Warner Bros,Ben Affleck,Gone Baby Gone,75,false
+Comédia,1993,TriStar Pictures,Harold Ramis,Groundhog Day,46,false
+Terror,1976,20th Century Fox,Brian De Palma,Carrie,59,false
+Animação,1998,Pixar,John Lasseter,A Bug's Life,96,false
+Fantasia,2008,New Line Cinema,Andrew Adamson,The Chronicles of Narnia: Prince Caspian,70,false
+Ficção Científica,1984,Orion Pictures,James Cameron,The Terminator,28,false
+Romance,2004,New Line Cinema,Nick Cassavetes,The Notebook,15,false
+Suspense,1983,Paramount Pictures,Brian De Palma,Scarface,88,false
+Aventura,1998,20th Century Fox,Michael Bay,Armageddon,11,false
+Ação,2008,Warner Bros,Christopher Nolan,The Dark Knight,44,false
+Drama,1993,Universal Pictures,Steven Spielberg,Schindler's List,82,false
+Comédia,1984,Columbia Pictures,Ivan Reitman,Ghostbusters,19,false
+Terror,1975,Universal Pictures,Steven Spielberg,Jaws,67,false
+Fantasia,2001,New Line Cinema,Peter Jackson,The Lord of the Rings: The Fellowship of the Ring,11,false
+Ficção Científica,1979,20th Century Fox,Ridley Scott,Alien,49,false
+Romance,1997,20th Century Fox,James Cameron,Titanic,98,false
+Suspense,1991,Orion Pictures,Jonathan Demme,The Silence of the Lambs,29,false
+Animação,2010,Pixar,Lee Unkrich,Toy Story 3,7,false
+Aventura,1981,Paramount Pictures,Steven Spielberg,Indiana Jones and the Raiders of the Lost Ark,73,false
+Ação,2000,20th Century Fox,Ridley Scott,Gladiator,35,false
+Drama,1994,Castle Rock,Frank Darabont,The Shawshank Redemption,88,false
+Comédia,1999,Universal Pictures,Stanley Kubrick,Eyes Wide Shut,43,false
+Terror,2003,Lionsgate,Rob Zombie,House of 1000 Corpses,16,false
+Animação,1994,Disney,Roger Allers,The Lion King,62,false
+Fantasia,2004,Warner Bros,Alfonso Cuarón,Harry Potter and the Prisoner of Azkaban,85,false
+Ficção Científica,1985,Universal Pictures,Robert Zemeckis,Back to the Future,55,false
+Romance,1987,20th Century Fox,Emile Ardolino,Dirty Dancing,3,false
+Suspense,1995,New Line Cinema,David Fincher,Se7en,92,false
+Aventura,2014,Marvel Studios,James Gunn,Guardians of the Galaxy,31,false
+Ação,1994,Universal Pictures,Quentin Tarantino,Pulp Fiction,47,false
+Drama,2008,Fox Searchlight,Danny Boyle,Slumdog Millionaire,65,false
+Comédia,2006,Warner Bros,Todd Phillips,The Hangover,14,false
+Terror,1980,Warner Bros,Stanley Kubrick,The Shining,99,false
+Animação,2003,Pixar,Andrew Stanton,Finding Nemo,21,false
+Ficção Científica,1993,Universal Pictures,Steven Spielberg,Jurassic Park,74,false
+Romance,2001,Paramount Pictures,Cameron Crowe,Vanilla Sky,34,false
+Suspense,2007,Paramount Vantage,Joel and Ethan Coen,No Country for Old Men,12,false
+Aventura,2011,Paramount Pictures,Brad Bird,Mission: Impossible - Ghost Protocol,59,false
+Ação,2014,Warner Bros,Doug Liman,Edge of Tomorrow,50,false
+Drama,2010,Columbia Pictures,David Fincher,The Social Network,89,false
+Comédia,2015,Universal Pictures,Paul Feig,Spy,26,false
+Terror,1978,Compass International,John Carpenter,Halloween,77,false
+Animação,2004,Pixar,Brad Bird,The Incredibles,94,false
+Fantasia,1988,Paramount Pictures,Robert Zemeckis,Who Framed Roger Rabbit,27,false
+Ficção Científica,2016,Paramount Pictures,Dennis Villeneuve,Arrival,60,false
+Romance,2003,Focus Features,Richard Curtis,Love Actually,32,false
+Suspense,1987,TriStar Pictures,Adrian Lyne,Fatal Attraction,45,false
+Aventura,2004,Walt Disney Pictures,Gore Verbinski,Pirates of the Caribbean: The Curse of the Black Pearl,9,false
+Ação,1996,Paramount Pictures,Brian De Palma,Mission: Impossible,70,false
+Drama,1989,Warner Bros,Edward Zwick,Glory,17,false
+Comédia,2008,Columbia Pictures,Adam McKay,Step Brothers,84,false
+Terror,2017,Warner Bros,Andy Muschietti,It,68,false
+Animação,1991,Disney,Gary Trousdale,Beauty and the Beast,41,false
+Fantasia,2009,20th Century Fox,James Cameron,Avatar,95,false
+Ficção Científica,1999,Warner Bros,The Wachowskis,The Matrix,38,false
+Romance,2013,Warner Bros,Baz Luhrmann,The Great Gatsby,2,false
+Suspense,2008,Warner Bros,Christopher Nolan,The Dark Knight,52,false
+Aventura,2002,New Line Cinema,Peter Jackson,The Lord of the Rings: The Two Towers,46,false
 Ação,1999,Warner Bros,Lilly Wachowski,Matrix,18,false
 Drama,1994,Columbia Pictures,Frank Darabont,Um Sonho de Liberdade,29,false
 Animação,2010,Pixar,Lee Unkrich,Toy Story 3,83,false
