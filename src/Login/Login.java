@@ -126,10 +126,11 @@ public class Login {
                 }
 
                 // Verifica se o usuário foi encontrado e, se sim, o remove
-                if (dados.size() > 1 && i == dados.size() - 1) {
+                if (!dados.isEmpty() && i == dados.size()) {
                     System.out.println("O usuário não existe no sistema");
                 } else {
                     dados.remove(i); // Remove o usuário da lista
+                    System.out.println("Usuário removido com sucesso!");
                     save(); // Salva as mudanças no arquivo
                 }
             } else {
