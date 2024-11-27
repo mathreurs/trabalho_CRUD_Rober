@@ -12,6 +12,7 @@ public class Adm extends Locadora {
     // Método para adicionar um novo filme ao catálogo
     public void addFilme(String categoria, int anoLancamento, String estudio, String diretor, String nomeFilme, int codigo, boolean alugado) {
         // Cria um novo objeto Filmes com os detalhes fornecidos
+        load();
         fil = new Filmes(categoria, anoLancamento, estudio, diretor, nomeFilme, codigo, alugado);
         filmes.add(fil); // Adiciona o filme à lista de filmes
         save(); // Salva a lista atualizada no arquivo ou base de dados
@@ -19,6 +20,7 @@ public class Adm extends Locadora {
 
     // Método para remover um filme do catálogo pelo nome
     public void removerFilme(String nome) {
+        load();
         // Percorre a lista de filmes para encontrar o filme com o nome especificado
         for (int i = 0; i < filmes.size(); i++) {
             if (filmes.get(i).getNomeFilme().equals(nome)) {
@@ -85,6 +87,7 @@ public class Adm extends Locadora {
 
     // Método para remover um usuário pelo nome de usuário
     public void removerUsuario(String usuarioAtual){
+        load();
         Login log = new Login();
         log.removerUsuario(usuarioAtual); // Chama o método para remover o usuário
     }
