@@ -27,22 +27,26 @@ public class Sistema {
             // Processa a escolha do administrador
             switch(opt){
                 case 1:
-                    // Adicionar novo filme ao sistema
-                    System.out.println("Nome do filme: ");
-                    String nomeAdd = inp.nextLine();
-                    System.out.println("Categoria: ");
-                    String categoria = inp.nextLine();
-                    System.out.println("Estúdio: ");
-                    String estudio = inp.nextLine();
-                    System.out.println("Nome do diretor: ");
-                    String diretor = inp.nextLine();
-                    System.out.println("Número do código:");
-                    int codigo = inp.nextInt();
-                    System.out.println("Ano de lançamento: ");
-                    int anoLancamento = inp.nextInt();
+                    try {
+                        // Adicionar novo filme ao sistema
+                        System.out.println("Nome do filme: ");
+                        String nomeAdd = inp.nextLine();
+                        System.out.println("Categoria: ");
+                        String categoria = inp.nextLine();
+                        System.out.println("Estúdio: ");
+                        String estudio = inp.nextLine();
+                        System.out.println("Nome do diretor: ");
+                        String diretor = inp.nextLine();
+                        System.out.println("Número do código:");
+                        int codigo = inp.nextInt();
+                        System.out.println("Ano de lançamento: ");
+                        int anoLancamento = inp.nextInt();
 
-                    // Chama o método para adicionar o filme ao catálogo da classe Adm
-                    adm.addFilme(categoria, anoLancamento, estudio, diretor, nomeAdd, codigo, false);
+                        // Chama o método para adicionar o filme ao catálogo da classe Adm
+                        adm.addFilme(categoria, anoLancamento, estudio, diretor, nomeAdd, codigo, false);
+                    }catch(Exception e){
+                        System.out.println("Valor invalidos");
+                    }
                     break;
 
                 case 2:
