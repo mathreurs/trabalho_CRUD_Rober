@@ -48,7 +48,7 @@ public class Main {
                     System.out.println("Digite sua senha: ");
                     String senha = inp.nextLine();
 
-                    // Verifica o nome de usuário e senha com o método verificarUsuario
+                    // Verifica o nome de usuário e senha com o metodo verificarUsuario
                     boolean[] verificar = log.verificarUsuario(cpf, senha);
 
                     if (verificar[0] && verificar[1]) {
@@ -123,6 +123,7 @@ public class Main {
         }
     }
 
+    // metodo para validar se o usuário possui caracteres proibidos no nome
     public static boolean validarUsuario(String nomeUsuario){
         boolean valido = true;
         String comp = "123456789!@#$%¨&*().,;/";
@@ -143,7 +144,7 @@ public class Main {
         return valido;
     }
 
-    // Método para validar o CPF digitado pelo usuário
+    // metodo para validar o CPF digitado pelo usuário
     public static boolean validarCpf(String cpf) {
         Login log = new Login();
 
