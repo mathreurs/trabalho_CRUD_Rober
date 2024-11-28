@@ -5,7 +5,7 @@ import Locadora.Locadora;
 import java.util.*;
 
 public class Sistema {
-    public String usuarioAtual; // Armazena o nome do usuário atualmente logado no sistema
+    public String cpfAtual; // Armazena o nome do usuário atualmente logado no sistema
 
     // Método para o sistema administrativo
     public void sistemAdm(){
@@ -87,7 +87,7 @@ public class Sistema {
 
                 case 8:
                     // Remover um usuário do sistema
-                    adm.removerUsuario(usuarioAtual); // Remove o usuário atual do sistema
+                    adm.removerUsuario(cpfAtual); // Remove o usuário atual do sistema
                     break;
 
                 case 10:
