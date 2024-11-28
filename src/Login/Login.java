@@ -35,13 +35,13 @@ public class Login {
     }
 
     // Método para verificar se um usuário existe e se é administrador
-    public boolean[] verificarUsuario(String nome, String senha) {
+    public boolean[] verificarUsuario(String CPF, String senha) {
         load(); // Carrega os dados atualizados do arquivo
         boolean[] achado = new boolean[2]; // Array para indicar se o usuário foi encontrado e se é administrador
 
         // Verifica se o usuário existe na lista e se as credenciais estão corretas
         for (int i = 0; i < dados.size(); i++) {
-            if (dados.get(i).getSenha().equals(senha) && dados.get(i).getUsuario().equalsIgnoreCase(nome)) {
+            if (dados.get(i).getSenha().equals(senha) && dados.get(i).getCpf().equalsIgnoreCase(CPF)) {
                 achado[0] = true; // Marca que o usuário foi encontrado
                 achado[1] = dados.get(i).isADM(); // Define se é administrador
             }
@@ -103,25 +103,22 @@ public class Login {
     }
 
     // Método para remover um usuário do sistema, verificando o nome e CPF
-    public void removerUsuario(String usuarioAtual) {
+    public void removerUsuario(String cpfAtual) {
         load(); // Carrega a lista de usuários do arquivo
         Scanner inp = new Scanner(System.in);
 
         try {
-            System.out.println("Qual o nome e CPF do usuário que deseja remover");
-            System.out.println("Nome: ");
-            String nome = inp.nextLine();
+            System.out.println("Qual o CPF do usuário que deseja remover");
+            System.out.println("CPF: ");
+            String cpf = inp.nextLine();
 
             // Verifica se o usuário atual não é o mesmo que deseja ser removido
-            if (!nome.equalsIgnoreCase(usuarioAtual)) {
-
-                System.out.println("CPF: ");
-                String cpf = inp.next();
+            if (!cpf.equalsIgnoreCase(cpfAtual)) {
 
                 int i = 0;
 
                 // Procura pelo usuário na lista verificando nome e CPF
-                while (i < dados.size() && (!dados.get(i).getUsuario().equalsIgnoreCase(nome) && !dados.get(i).getCpf().equalsIgnoreCase(cpf))) {
+                while (i < dados.size() && (!dados.get(i).getCpf().equalsIgnoreCase(cpf))) {
                     i++;
                 }
 
