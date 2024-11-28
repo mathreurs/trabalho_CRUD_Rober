@@ -38,13 +38,11 @@ public class Sistema {
                         String estudio = inp.nextLine();
                         System.out.println("Nome do diretor: ");
                         String diretor = inp.nextLine();
-                        System.out.println("Número do código:");
-                        int codigo = inp.nextInt();
                         System.out.println("Ano de lançamento: ");
                         int anoLancamento = inp.nextInt();
 
                         // Chama o metodo para adicionar o filme ao catálogo da classe Adm
-                        adm.addFilme(categoria, anoLancamento, estudio, diretor, nomeAdd, codigo, false);
+                        adm.addFilme(categoria, anoLancamento, estudio, diretor, nomeAdd,false);
                     }catch(Exception e){
                         System.out.println("Valor invalidos");
                     }
