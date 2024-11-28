@@ -41,15 +41,15 @@ public class Main {
             switch (opt) {
                 case 1:
                     // Caso o usuário já possua cadastro
-                    System.out.println("Digite seu nome de usuário: ");
-                    String usuario = inp.nextLine();
-                    sistema.usuarioAtual = usuario;
+                    System.out.println("Digite seu CPF: ");
+                    String cpf = inp.nextLine();
+                    sistema.cpfAtual = cpf;
 
                     System.out.println("Digite sua senha: ");
                     String senha = inp.nextLine();
 
                     // Verifica o nome de usuário e senha com o método verificarUsuario
-                    boolean[] verificar = log.verificarUsuario(usuario, senha);
+                    boolean[] verificar = log.verificarUsuario(cpf, senha);
 
                     if (verificar[0] && verificar[1]) {
                         // Se usuário é administrador, chama o sistema administrativo
@@ -70,11 +70,11 @@ public class Main {
                     int adm = inp.nextInt();
 
                     System.out.println("Digite o numero do CPF:");
-                    String cpf = inp.next();
+                    String cpfCad = inp.next();
 
                     int escolha = 0;
                     // Loop para validar o CPF até que seja correto ou o usuário cancele
-                    while(!validarCpf(cpf)){
+                    while(!validarCpf(cpfCad)){
                         escolha = inp.nextInt();
 
                         if(escolha == 2){
@@ -88,15 +88,13 @@ public class Main {
                     if(escolha != 2) {
                         // Adiciona o novo usuário, verificando se é um administrador ou não
                         if (adm == 1) {
-                            log.addUsuario(usuarioCad, senhaCad, true, cpf);
+                            log.addUsuario(usuarioCad, senhaCad, true, cpfCad);
                         } else if (adm == 2) {
-                            log.addUsuario(usuarioCad, senhaCad, false, cpf);
+                            log.addUsuario(usuarioCad, senhaCad, false, cpfCad);
                         }
                     }else{
                         System.out.println("Cadastro cancelado!");
                     }
-
-
                     break;
                 case 3:
                     // Exibe todos os usuários cadastrados no sistema
@@ -148,7 +146,6 @@ public class Main {
                 }
 
             } catch (Exception e) {
-                System.out.println("Digito 1 invalido");
             }
 
             // Testa o segundo dígito validador do CPF
@@ -171,7 +168,6 @@ public class Main {
                 }
 
             } catch (Exception e) {
-                System.out.println("Digito 2 invalido");
             }
 
             // Verifica se ambos os dígitos validadores são corretos
