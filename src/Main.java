@@ -63,7 +63,14 @@ public class Main {
                 case 2:
                     // Caso o usuário não possua cadastro, realiza o processo de cadastro
                     System.out.println("Digite seu nome de usuário: ");
-                    String usuarioCad = inp.nextLine();
+                    boolean valido = false;
+                    String usuarioCad = "";
+
+                    while(!valido) {
+                        usuarioCad = inp.nextLine();
+                        valido = validarUsuario(usuarioCad);
+                    }
+
                     System.out.println("Digite sua senha: ");
                     String senhaCad = inp.nextLine();
                     System.out.println("O usuario é ADM? [1] Sim [2] Não");
@@ -95,6 +102,7 @@ public class Main {
                     }else{
                         System.out.println("Cadastro cancelado!");
                     }
+
                     break;
                 case 3:
                     // Exibe todos os usuários cadastrados no sistema
@@ -113,6 +121,26 @@ public class Main {
                     break;
             }
         }
+    }
+
+    public static boolean validarUsuario(String nomeUsuario){
+        boolean valido = true;
+        String comp = "123456789!@#$%¨&*().,;/";
+        String[] comparar = comp.split("");
+        String[] pic = nomeUsuario.split("");
+
+        for(String l1 : comparar){
+            for(String l2 : pic){
+                if(l1.equalsIgnoreCase(l2)){
+                    valido = false;
+                }
+            }
+        }
+        if(!valido){
+            System.out.println("Usuário invalido, digite novamente: ");
+        }
+
+        return valido;
     }
 
     // Método para validar o CPF digitado pelo usuário
