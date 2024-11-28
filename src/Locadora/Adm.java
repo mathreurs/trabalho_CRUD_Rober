@@ -86,9 +86,9 @@ public class Adm extends Locadora {
     }
 
     // Método para remover um usuário pelo nome de usuário
-    public void removerUsuario(String usuarioAtual){
+    public void removerUsuario(String cpfAtual){
         load();
         Login log = new Login();
-        log.removerUsuario(usuarioAtual); // Chama o método para remover o usuário
+        log.removerUsuario(cpfAtual); // Chama o método para remover o usuário
     }
 }
