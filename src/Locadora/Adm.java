@@ -9,13 +9,24 @@ public class Adm extends Locadora {
     // Declara um objeto da classe Filmes para representar o filme a ser adicionado ou removido
     Filmes fil;
 
-    // Método para adicionar um novo filme ao catálogo
-    public void addFilme(String categoria, int anoLancamento, String estudio, String diretor, String nomeFilme, int codigo, boolean alugado) {
+    // Metodo para adicionar um novo filme ao catálogo
+    public void addFilme(String categoria, int anoLancamento, String estudio, String diretor, String nomeFilme,boolean alugado) {
         // Cria um novo objeto Filmes com os detalhes fornecidos
         load();
-        fil = new Filmes(categoria, anoLancamento, estudio, diretor, nomeFilme, codigo, alugado);
-        filmes.add(fil); // Adiciona o filme à lista de filmes
-        save(); // Salva a lista atualizada no arquivo ou base de dados
+
+        int maior = 0;
+        int cont = 0;
+
+        while(cont < filmes.size()){
+            if(maior < filmes.get(cont).getCodigo()){
+                maior = filmes.get(cont).getCodigo();
+            }
+            cont++;
+        }
+
+        fil = new Filmes(categoria, anoLancamento, estudio, diretor, nomeFilme, maior + 1, alugado);
+        filmes.add(fil);
+        save();
     }
 
     // Método para remover um filme do catálogo pelo nome
