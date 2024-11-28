@@ -15,15 +15,15 @@ public class Adm extends Locadora {
         load();
 
         int maior = 0;
-        int cont = 0;
-
-        while(cont < filmes.size()){
-            if(maior < filmes.get(cont).getCodigo()){
-                maior = filmes.get(cont).getCodigo();
+        if(!filmes.isEmpty()) {
+            int cont = 0;
+            while (cont < filmes.size()) {
+                if (maior < filmes.get(cont).getCodigo()) {
+                    maior = filmes.get(cont).getCodigo();
+                }
+                cont++;
             }
-            cont++;
         }
-
         fil = new Filmes(categoria, anoLancamento, estudio, diretor, nomeFilme, maior + 1, alugado);
         filmes.add(fil);
         save();
