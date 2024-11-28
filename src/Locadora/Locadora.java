@@ -86,7 +86,7 @@ public class Locadora {
         load(); // Recarrega a lista de filmes
         Scanner inp = new Scanner(System.in);
         try{
-            System.out.println("Qual parametro deseja?\n[1] nome do filme [2] nome do diretor [3] ano de lançamento [4] estudio");
+            System.out.println("Qual parametro deseja?\n[1] nome do filme [2] nome do diretor [3] ano de lançamento [4] estudio [5] categoria");
             int opt = inp.nextInt();
             inp.nextLine();
 
@@ -134,6 +134,18 @@ public class Locadora {
                     for (int i = 0; i < filmes.size(); i++) {
                         if (filmes.get(i).getEstudio().equalsIgnoreCase(nomeEstudio)) {
                             System.out.println(filmes.get(i).toText()); // Exibe o filme se o estúdio coincidir
+                        }
+                    }
+                    System.out.println("-----------------------------------------------------------------------------------");
+                    break;
+
+                case 5:
+                    System.out.println("Digite o estudio que deseja: ");
+                    String categoria = inp.nextLine();
+                    System.out.println("-----------------------------------------------------------------------------------");
+                    for (int i = 0; i < filmes.size(); i++) {
+                        if (filmes.get(i).getCategoria().equalsIgnoreCase(categoria)) {
+                            System.out.println(filmes.get(i).toText()); // Exibe o filme se o a categoria coincidir
                         }
                     }
                     System.out.println("-----------------------------------------------------------------------------------");
